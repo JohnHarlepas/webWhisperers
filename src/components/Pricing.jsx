@@ -5,6 +5,7 @@ import ScrollAnimation from 'react-animate-on-scroll';
 
 import ItemOne from "../components/pricingItem/ItemOne";
 import ItemTwo from "../components/pricingItem/ItemTwo";
+import ItemThree from '../components/pricingItem/ItemThree';
 
 export class Pricing extends Component {
     render() {
@@ -36,6 +37,10 @@ export class Pricing extends Component {
                                             {/* ItemOne Component from src/components/pricingItem/ItemTwo */}
                                             <ItemTwo />
                                         </Tab>
+                                        <Tab eventKey="Maintenance" title="Maintenance">
+                                            {/* ItemOne Component from src/components/pricingItem/ItemTwo */}
+                                            <ItemThree />
+                                        </Tab>
                                     </Tabs>
                                 </div>
                             </div>
@@ -58,7 +63,7 @@ Pricing.defaultProps = {
     SectionbgTitle: "Pricing",
     sectionTitle: "Pricing",
     sectionDescription:
-        "We know that buying parking can be not only a inconvenience but also take a toll on your personal finances. So, we arranged a structured pricing system to give you options.",
+        "We know that running a small business can be really tough, especially on our clients' finances. This is why we provide our clients with a variety of products that make it easier to pick a website that best fits their stage of development.",
 
 };
 export default Pricing

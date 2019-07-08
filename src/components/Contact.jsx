@@ -20,7 +20,7 @@ class Contact extends Component {
     handleForm = e => {
         let that = this;
         axios
-            .post("https://formcarry.com/s/jWWZHswOmg7", this.state, {
+            .post("https://formcarry.com/s/lP6CikOXFK7", this.state, {
                 headers: { Accept: "application/json" }
             })
             .then(function(response) {
@@ -56,7 +56,7 @@ class Contact extends Component {
                             <div className="col-lg-4 col-md-4">
                                 <div className="address-area">
                                     <div className="addess">
-                                        <Icofont icon="icofont-google-map"/>
+                                        <Icofont icon="icofont-google-map icofont-red"/>
                                         <h4>{this.props.AddTitle}</h4>
                                         <p>{this.props.Address}</p>
                                     </div>
@@ -223,12 +223,12 @@ Contact.propTypes = {
 //Default Props
 Contact.defaultProps = {
     SectionbgTitle: "Contact",
-    sectionTitle: "Our Contact",
+    sectionTitle: "Contact Us",
     sectionDescription: "We strive to provide the best customer service in the industry. If you have any problems, please contact us and we will make every effort to help you.",
     AddTitle: "Address",
-    Address: "950 N Glebe Road, Arlington, VA 22203",
+    Address: "200 Lawyers Rd Nw #457, Vienna, Virginia, 22180",
     EmailTitle: "Email",
-    Email: "support@opass.com",
+    Email: "contact@webwhisperers.com",
     PhoneTitle: "Phone",
     Phone: "+1-325-555-0156",
 };

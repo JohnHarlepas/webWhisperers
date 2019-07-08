@@ -114,25 +114,25 @@ BannerOne.defaultProps = {
         {
             BgClass: "single-slider-item slide-bg-1",
             // the pictures for the bannner are found in the style.css under the class name slide-bg-1
-            TopTitle: "Safe & Secure",
-            Title: "Fully Automated System",
+            TopTitle: "Fast & Impactful",
+            Title: "Fully Customized Websites",
             Content:
-                "Exit parking garbages without having to pay at the terminals or gates, preventing accidents and loss of time.",
+                "Build the website that speaks to your customers in a short period of time.",
             BtnLink:  "/works",
             BtnName: "get started"
         },
         {
             BgClass: "single-slider-item slide-bg-2",
-            TopTitle: "Innovative & Unique",
+            TopTitle: "Adaptable & Convenient",
             Title: "Dynamic User Interaction",
             Content:
-                "Exhaustive customer research was used to create a set of features that assure ease of use and optimal convenience.",
+                "Accomodate your clients by owning a website that is part of their lives no matter the technology they use",
             BtnLink:  "/works",
             BtnName: "get started"
         },
         {
             BgClass: "single-slider-item slide-bg-3",
-            TopTitle: "Reliable & Stress Free",
+            TopTitle: "Reliable & Thoughtful",
             Title: "Knowledgeable Industry Leadership",
             Content:
                 "Ending the practice of leaving customers adrift without clear and absolute support.",
@@ -143,18 +143,18 @@ BannerOne.defaultProps = {
     thumbsData: [
         {
             ThumbIcon: "icofont-rocket-alt-1",
-            ThumbTitle: "Adaptive Technology",
-            ThumbContent: "We strive to embrace and drive change in our industry which allows us to keep our clients relevant.",
+            ThumbTitle: "Rapid Development",
+            ThumbContent: "We strive to produce quality websites in a expediated manner to help our business clients earn rapid sales.",
         },
         {
-            ThumbIcon: "icofont-box",
-            ThumbTitle: "Unique Features",
-            ThumbContent: "We incorporate a series uniqiue benefits to secure complete customer satisfaction.",
+            ThumbIcon: "icofont-iphone",
+            ThumbTitle: "Responsive Design",
+            ThumbContent: "We incorporate technologies that allow our clients to showcase their websites on a variety of platforms: computers, tablets, and phones.",
         },
         {
             ThumbIcon: "icofont-live-support",
-            ThumbTitle: "Reliable Support",
-            ThumbContent: "We embrace a customer-centric culture, where resources are utilized to maintain our brand quality.",
+            ThumbTitle: "Dependable Support",
+            ThumbContent: "We embrace a customer-centric culture, where resources are utilized to maintain a constant connection to our clients.",
         },
     ]
 };

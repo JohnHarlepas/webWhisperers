@@ -474,13 +474,13 @@ button {
     Slider Area CSS 
    ========================= */
 .slide-bg-1 {
-    background-image: url(assets/img/gate4.jpg);
+    background-image: url(assets/img/slidePic1a.jpg);
 }
 .slide-bg-2 {
-    background-image: url(assets/img/featuresSlider.jpeg);
+    background-image: url(assets/img/slidePic2.jpg);
 }
 .slide-bg-3 {
-    background-image: url(assets/img/supportSlider2.jpg);
+    background-image: url(assets/img/slidePic3.jpg);
 }
 .hompage-slides-wrapper {
 	position: relative;
@@ -493,6 +493,7 @@ button {
   font-size: 15px;
   color: #fff;
   text-shadow: 1px 1px 0px #000000;
+  /* this is where the shadow for the text in the bannerone page can be found */
 }
 .single-slider-item .center-wrap {
     margin-top: 40px;
@@ -716,6 +717,7 @@ Services Area CSS
 }
 .cta-bg-img {
     background-image: url(assets/img/carPark.jpeg);
+    /* this is where the middle section with purchase now picture lies */
 }
 .cta-info {
 	margin-top: 42px;
@@ -971,6 +973,7 @@ Services Area CSS
     left: 0;
     transition: all 0.3s ease 0s;
     -webkit-transition: all 0.3s ease 0s;
+    text-shadow: 1px 1px 0px #000000;
 }
 .team-box:hover .box-inner-content{ opacity: 1; }
 .team-box .title{
@@ -1952,11 +1955,12 @@ a.button.border {
 	margin: 0 0 10px;
 }
 .address-area i {
-    color: #fe5619;
+    color: #ed1c24;
     font-size: 35px;
     position: absolute;
     left: 0;
     top: 0;
+    /* this is for what color the icons in the contact form are */
 }
 .email {
 	margin: 50px 0;

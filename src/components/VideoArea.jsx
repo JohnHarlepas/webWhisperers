@@ -26,7 +26,7 @@ class VideoArea extends Component {
                                 <ModalVideo
                                     channel="youtube"
                                     isOpen={this.state.isOpen}
-                                    videoId="GE6sFLWf430"
+                                    videoId="aMI6tdIcHjA"
                                     onClose={() =>
                                         this.setState({
                                             isOpen: false
@@ -54,7 +54,7 @@ VideoArea.propTypes= {
     Content: PropTypes.string,
 }
 VideoArea.defaultProps = {
-    Title: "Watch Video",
-    Content: "When parking terminals or gates fail, they strand customers inside the parking garage, exposing them to serious health concerns. O-Pass aims to end this unfortunate reality for customers. ",
+    Title: "When Should a Small Business Avoid Building A Website?",
+    Content: "At Web Whisperers, it is important that we bring value to our clients. This means, in some cases, it is best to tell clients that their business should not build a website. Click on the video to find out when a small business shouldn't build a website. ",
 }
 export default VideoArea;
