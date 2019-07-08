@@ -63,7 +63,7 @@ Pricing.defaultProps = {
     SectionbgTitle: "Pricing",
     sectionTitle: "Pricing",
     sectionDescription:
-        "We know that running a small business can be really tough, especially on our clients' finances. This is why we provide our clients with a variety of products that make it easier to pick a website that best fits their stage of development.",
+        "We know that running a small business can be really tough. This is why we provide our clients with a variety of products that make it easier to pick a website that best fits their stage of development.",
 
 };
 export default Pricing

@@ -117,7 +117,7 @@ BannerOne.defaultProps = {
             TopTitle: "Fast & Impactful",
             Title: "Fully Customized Websites",
             Content:
-                "Build the website that speaks to your customers in a short period of time.",
+                "Build the website that speaks to your customers in a short period of time",
             BtnLink:  "/works",
             BtnName: "get started"
         },
@@ -133,9 +133,9 @@ BannerOne.defaultProps = {
         {
             BgClass: "single-slider-item slide-bg-3",
             TopTitle: "Reliable & Thoughtful",
-            Title: "Knowledgeable Industry Leadership",
+            Title: "Undettered Customer Satisfaction",
             Content:
-                "Ending the practice of leaving customers adrift without clear and absolute support.",
+                "Accepting the responsibilitiy of being there when our clients' need us",
             BtnLink:  "/works",
             BtnName: "get started"
         }
