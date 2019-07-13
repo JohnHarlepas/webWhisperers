@@ -56,26 +56,26 @@ Services.defaultProps = {
     SectionbgTitle: "Service",
     sectionTitle: "Why use this service?",
     sectionDescription:
-        "This is a way to get around the hassle of waiting in line to pay your parking ticket at kiosks or at the gate, we are offering the convenience of pre paying your parking ticket on your mobile device before you leave. We all know the line to get out can get backed up very frequently, this is more efficient and can save everyone some time.",
+        "In our experience, clients come to us wanting to build a presence online to get more customers. Unfortunatley, the average cost of getting a website done by a professiona is $2000 to $5000. This is a major hurdle for many small businesses. At Web Whisperers, our goal is to get our clients online for much less while providing them with beautiful and well functioning websites.",
 
     servicesData: [
         {
-            icon: "icofont-refresh",
+            icon: "icofont-hand-drag",
             heading: "Flexibility",
             description:
-                "We want to give you the option of flexibility, waiting in line can be annoying. Why wait?"
+                "We offer multiple types of payment methods, ensuring clients have control."
         },
         {
             icon: "icofont-wall-clock",
-            heading: "Time Saving",
+            heading: "Convenience",
             description:
-                "You could already be on the road home, but you're still in line. We can change that."
+                "Our developers do all the work, while our clients focus on running their businesses."
         },
         {
-            icon: "icofont-support",
-            heading: "Support",
+            icon: "icofont-dollar-plus",
+            heading: "Affordability",
             description:
-                "We will always tend to the needs of our customers, contact us any time."
+                "Our websites are designed to bring value at at low cost for our clients."
         },
         
     ]

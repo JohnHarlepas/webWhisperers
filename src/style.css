@@ -716,7 +716,7 @@ Services Area CSS
     padding: 60px 0;
 }
 .cta-bg-img {
-    background-image: url(assets/img/carPark.jpeg);
+    background-image: url(assets/img/serviceSec.jpeg);
     /* this is where the middle section with purchase now picture lies */
 }
 .cta-info {
@@ -727,11 +727,13 @@ Services Area CSS
 	color:white;
 	font-size: 32px;
     line-height: 36px;
+    text-shadow: 1px 1px 0px #000000;
 }
 .cta-info p {
 	margin: 12px 0 40px;
 	font-size: 17px;
-	color: white;
+    color: white;
+    text-shadow: 1px 1px 0px #000000;
 }
 /* =========================
     End CTA Area CSS 

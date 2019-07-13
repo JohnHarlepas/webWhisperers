@@ -26,6 +26,7 @@ import ScrollUpBtn from "./components/ScrollUp";
 import Works from "./components/Works";
 import Contact from "./components/Contact";
 
+
 class App extends Component {
     render() {
         return (
@@ -81,25 +82,25 @@ class App extends Component {
 
                                             <Route
                                                 path="/demand"
-                                                component={() => window.location = 'http://www.parking-net.com/parking-industry-blog/get-my-parking/why-demand-based-parking-is-smart'}
+                                                component={() => window.location = 'http://www.bebetterdomore.com/blog/how-much-does-it-cost-to-maintain-a-website/'}
 
                                             />
 
                                             <Route
                                                 path="/future"
-                                                component={() => window.location = 'http://www.parking-net.com/parking-industry-blog/parking-network/preparing-for-an-autonomous-future'}
+                                                component={() => window.location = 'https://www.volusion.com/blog/website-maintenance-costs/'}
 
                                             />
 
                                             <Route
                                                 path="/automated"
-                                                component={() => window.location = 'http://blog.getmyparking.com/2018/07/12/automated-car-parking-system-walking-through-the-history-of-parking/'}
+                                                component={() => window.location = 'https://www.markbrinker.com/website-cost'}
 
                                             />
 
                                             <Route
                                                 path="/ticket"
-                                                component={() => window.location = 'https://blog.spothero.com/the-best-tricks-to-avoid-parking-tickets-in-the-city/'}
+                                                component={() => window.location = 'https://websitesetup.org/website-cost/'}
 
                                             />
 
@@ -165,6 +166,8 @@ class App extends Component {
                                                 path="/contact"
                                                 component={Contact}
                                             />
+
+                                          
 
 
 

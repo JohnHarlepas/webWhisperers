@@ -29,9 +29,9 @@ class WelcomeServices extends Component {
                                                 </div>
                                             </div>
                                         </div>
-                                        <div className="col-sm-6 col-md-5 col-lg-5 cta-img">
+                                        {/* <div className="col-sm-6 col-md-5 col-lg-5 cta-img">
                                             <img className="img-fluid" src={this.props.Image} alt="mac-pro" /> 
-                                        </div>
+                                        </div> */}
                                     </div>
                                 </ScrollAnimation>
                             </div>
@@ -56,9 +56,9 @@ WelcomeServices.propTypes = {
 //Default Props
 WelcomeServices.defaultProps = {
     Title: "We offer best in class service for your needs",
-    Content: "We strive to embrace and drive change in our industry which allows us to keep our clients relevant.",
+    Content: "We strive to build websites for clients designed to cater to the needs of their customers.",
     BtnLink: "/ebay",
     BtnName: "PURCHASE NOW",
-    Image: require("../assets/img/jumpingGuy.png"),
+    // Image: require("../assets/img/jumpingGuy.png"),
 };
 export default WelcomeServices;

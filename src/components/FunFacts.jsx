@@ -35,9 +35,10 @@ class FunFacts extends Component {
                         <div className="col-lg-4 col-md-4">
                             <div className="count-box text-center">
                                 <div className="glyph">
-                                    <Icofont icon="icofont-car" />
+                                    <Icofont icon="icofont-people" />
+                                   
                                 </div>
-                                <p>CARS PARKED DAILY</p>
+                                <p>Percentage of Customers that Research Online before Visiting a Business</p>
                                 <h2 className="counter">
                                 <VisibilitySensor
                                     onChange={this.onVisibilityChange}
@@ -50,7 +51,7 @@ class FunFacts extends Component {
                                         start={0}
                                         end={
                                             this.state.didViewCountUp
-                                                ? 234548
+                                                ? 80
                                                 : 0
                                         }
                                         duration={5}
@@ -63,9 +64,9 @@ class FunFacts extends Component {
                         <div className="col-lg-4 col-md-4">
                             <div className="count-box text-center">
                                 <div className="glyph">
-                                    <Icofont icon="icofont-star" />
+                                    <Icofont icon="icofont-web" />
                                 </div>
-                                <p>5 STAR REVIEWS</p>
+                                <p>Percentage of Small Businesses that have a Website</p>
                                 <h2 className="counter">
                                 <VisibilitySensor
                                     onChange={this.onVisibilityChange}
@@ -78,7 +79,7 @@ class FunFacts extends Component {
                                         start={0}
                                         end={
                                             this.state.didViewCountUp
-                                                ? 5284894
+                                                ? 64
                                                 : 0
                                         }
                                         duration={5}
@@ -91,9 +92,9 @@ class FunFacts extends Component {
                         <div className="col-lg-4 col-md-4">
                             <div className="count-box text-center">
                                 <div className="glyph">
-                                    <Icofont icon="icofont-id-card" />
+                                    <Icofont icon="icofont-chart-histogram-alt" />
                                 </div>
-                                <p>CARD CARRYING PREFERRED CUSTOMERS</p>
+                                <p>Percentage of Customers that have Visited a Store Because of an Online Experience</p>
                                 <h2 className="counter">
                                 <VisibilitySensor
                                     onChange={this.onVisibilityChange}
@@ -106,7 +107,7 @@ class FunFacts extends Component {
                                         start={0}
                                         end={
                                             this.state.didViewCountUp
-                                                ? 800000
+                                                ? 91
                                                 : 0
                                         }
                                         duration={3}
@@ -133,9 +134,9 @@ FunFacts.propTypes = {
 //Default Props
 FunFacts.defaultProps = {
     SectionbgTitle: "Fun Facts",
-    sectionTitle: "0-Pass Fun Facts",
+    sectionTitle: "Small Business Facts",
     sectionDescription:
-        "Buckle-Up For Some Of Our Awesome Accomplishments.",
+        "Buckle-Up For Some Eye Opening Facts",
 };
 
 export default FunFacts;

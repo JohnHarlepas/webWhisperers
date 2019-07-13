@@ -9,9 +9,9 @@ class Partners extends Component {
         //Partner loop start
         const partnerData = this.props.partnersData.map((partner, index) => (
             <div className="single-partner-logo" key={index}>
-                <Link to={partner.partnerLink} className="logo-preview">
+                {/* <Link to={partner.partnerLink} className="logo-preview"> */}
                     <img src={partner.partnerLogo} alt="partnerLogo" />
-                </Link>
+                {/* </Link> */}
             </div>
         ));
         //Partner loop END
@@ -74,33 +74,33 @@ Partners.propTypes = {
 
 //Default Props
 Partners.defaultProps = {
-    SectionbgTitle: "Partners",
-    sectionTitle: "Our Partners",
-    sectionDescription: "These are the companies we are affiliated with and share a common interest in in serving the people of our communities.",
+    SectionbgTitle: "Technology",
+    sectionTitle: "Our Tools",
+    sectionDescription: "These are the technologies that allow us to build rapid, impactful, and stylish websites for our clients.",
     partnersData: [
         {
-            partnerLogo: require("../assets/img/partners-logo/imparkUpdate.png"),
-            partnerLink: "/impark"
+            partnerLogo: require("../assets/img/partners-logo/react1.png"),
+            // partnerLink: "/impark"
         },
         {
-            partnerLogo: require("../assets/img/partners-logo/aceParkingUpdate.png"),
-            partnerLink: "/ace"
+            partnerLogo: require("../assets/img/partners-logo/mongoDB1.png"),
+            // partnerLink: "/ace"
         },
         {
-            partnerLogo: require("../assets/img/partners-logo/colonialParkUpdate.png"),
-            partnerLink: "/colonialParking"
+            partnerLogo: require("../assets/img/partners-logo/expressJS1.png"),
+            // partnerLink: "/colonialParking"
         },
         {
-            partnerLogo: require("../assets/img/partners-logo/OneParkingUpdate.png"),
-            partnerLink: "/oneParking"
+            partnerLogo: require("../assets/img/partners-logo/nodeJS1.png"),
+            // partnerLink: "/oneParking"
         },
         {
-            partnerLogo: require("../assets/img/partners-logo/lazParkingUpdate.png"),
-            partnerLink: "/lazParking"
+            partnerLogo: require("../assets/img/partners-logo/heroku1.png"),
+            // partnerLink: "/lazParking"
         },
         {
-            partnerLogo: require("../assets/img/partners-logo/atlanticParkingUpdate.png"),
-            partnerLink: "/atlanticParking"
+            partnerLogo: require("../assets/img/partners-logo/javascript1.png"),
+            // partnerLink: "/atlanticParking"
         }
     ] 
 };

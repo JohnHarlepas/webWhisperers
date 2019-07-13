@@ -61,7 +61,7 @@ Testimonials.defaultProps = {
             clientImage: require("../assets/img/johnSmall1.png"),
             Content: "Keep your mind forever focused on following your passion's north star and the winds of fortune will forever push you forward.",
             Name: "John D. Harlepas",
-            Profession: "Founder & Tech Lead",
+            Profession: "Tech Lead",
         },
         {
             clientImage: require("../assets/img/stephenSmall.png"),

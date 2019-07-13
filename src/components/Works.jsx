@@ -7,21 +7,21 @@ import Lightbox from "react-image-lightbox";
 
 
 const images = [
-    require("../assets/img/workSteps1Big.png"),
-    require("../assets/img/workSteps2Big.png"),
-    require("../assets/img/workSteps3Big.png"),
-    require("../assets/img/workSteps4Big.png"),
-    require("../assets/img/workSteps5Big.png"),
-    require("../assets/img/workSteps6Big.png")
+    require("../assets/img/stepOne.png"),
+    require("../assets/img/stepTwo.png"),
+    require("../assets/img/stepThree.png"),
+    require("../assets/img/stepFour.png"),
+    require("../assets/img/stepFive.png"),
+    require("../assets/img/stepSix.png")
   ];
   
   const smallImages = [
-      require("../assets/img/work1.png"),
-      require("../assets/img/work2.png"),
-      require("../assets/img/work3.png"),
-      require("../assets/img/work4.png"),
-      require("../assets/img/work5.png"),
-      require("../assets/img/work6.png")
+      require("../assets/img/stepOne.png"),
+      require("../assets/img/stepTwo.png"),
+      require("../assets/img/stepThree.png"),
+      require("../assets/img/stepFour.png"),
+      require("../assets/img/stepFive.png"),
+      require("../assets/img/stepSix.png")
   ];
 
 class Works extends Component {
@@ -246,7 +246,7 @@ Works.defaultProps = {
     SectionbgTitle: "How",
     sectionTitle: "How it works",
     sectionDescription:
-        "Below you'll find a step by step process of how to use our service, its super easy! You'll never want to pay at the gate, or use a kiosk ever again.",
+        "Below you'll find a step by step process of how to use our service, its super easy! You'll want to build a website today!",
 };
 
 export default Works;

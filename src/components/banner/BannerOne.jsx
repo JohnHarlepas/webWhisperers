@@ -126,14 +126,14 @@ BannerOne.defaultProps = {
             TopTitle: "Adaptable & Convenient",
             Title: "Dynamic User Interaction",
             Content:
-                "Accomodate your clients by owning a website that is part of their lives no matter the technology they use",
+                "Build websites that make an impact on your customers",
             BtnLink:  "/works",
             BtnName: "get started"
         },
         {
             BgClass: "single-slider-item slide-bg-3",
             TopTitle: "Reliable & Thoughtful",
-            Title: "Undettered Customer Satisfaction",
+            Title: "Unfettered Customer Satisfaction",
             Content:
                 "Accepting the responsibilitiy of being there when our clients' need us",
             BtnLink:  "/works",

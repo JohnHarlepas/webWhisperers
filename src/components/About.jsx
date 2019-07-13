@@ -54,37 +54,37 @@ About.defaultProps = {
     SectionbgTitle: "About",
     sectionTitle: "About Us",
     sectionDescription:
-        "We are John Harlepas, John Druhan, Steven Peng, and Patrick Ellis. We're just a rag-tag group of fullstack developers looking to solve issues, create new things, and jump forward in this new world of coding. ",
+        "We are a group of experienced members of the business and programming world. Our goal is to provide each client with a product that raises their business's profile, while safeguarding their financial well-being. ",
         aboutsData: [
         {
-            Icon: "icofont-climbing",
-            title: "Ambition",
-            content: "We are ambitious with all the work we do, and cannot wait to extend our talents above and beyond. ",
+            Icon: "icofont-win-trophy",
+            title: "Competitive",
+            content: "We want to provide our clients an experience that outmatches anyone elses in the web design industry. ",
         },
         {
             Icon: "icofont-tools-bag",
             title: "Resourceful",
-            content: "Resources are key to a developers tool belt, we utilize multiple technologies and packages to bring our creations alive.",
+            content: " By using multiple technolies, we can build websites that bring our clients more sales and notoriety.",
         },
         {
             Icon: "icofont-chart-histogram-alt",
             title: "Efficient",
-            content: "Getting things done before or by the deadline always guarantees happy customers/clients, is what we aim for.",
+            content: "We aim to complete projects before the deadline without the need for additional resources from our clients.",
         },
         {
-            Icon: "icofont-brainstorming",
-            title: "Experience",
-            content: "Our experience is constantly growing and the opportunities are endless. Every project resonates ideas for the next.",
+            Icon: "icofont-light-bulb",
+            title: "Experienced",
+            content: "Our experiences have built a strong foundation where each project inspires our developers to generate new ideas.",
         },
         {
             Icon: "icofont-handshake-deal",
-            title: "Commitment",
-            content: "We are committed to every part of every project we do, nothing is an exception. We persevere for success.",
+            title: "Committed",
+            content: "We never fail to deliver a project, failing is not an option for us. We persevere so that our clients find success.",
         },
         {
             Icon: "icofont-transparent",
             title: "Transparent",
-            content: "We have nothing to hide, we are up front with everything we create. Honesty is always the best policy.",
+            content: " Honesty is a core pillar of our company. We strive for full transparency, hiding nothing from our clients.",
         },
     ]
 };

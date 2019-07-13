@@ -17,7 +17,7 @@ class Team extends Component {
                         <span className="post">{team.Profession}</span>
                         <ul className="icon">
                             {/* <li><Link to={team.facebookLink}><Icofont icon="icofont-facebook" /></Link></li> */}
-                            <li><Link to={team.linkedinLink} target="blank"><Icofont icon="icofont-linkedin" /></Link></li>
+                            {/* <li><Link to={team.linkedinLink} target="blank"><Icofont icon="icofont-linkedin" /></Link></li> */}
                             {/* <li><Link to={team.twitterLink}><Icofont icon="icofont-twitter" /></Link></li> */}
                         </ul>
                     </div>
@@ -90,7 +90,7 @@ Team.defaultProps = {
     SectionbgTitle: "Team",
     sectionTitle: "Meet the Web Whisperers",
     sectionDescription:
-        "The DREAM TEAM of the web designing industry:",
+        "The DREAM TEAM of the web designing industry",
     teamsData: [
         {
             Image: require("../assets/img/connieLee1b.jpeg"),
@@ -101,9 +101,9 @@ Team.defaultProps = {
             twitterLink: "/#0",
         },
         {
-            Image: require("../assets/img/JohnH1.JPG"),
-            Name: "John Harlepas",
-            Profession: "Tech Lead & Full Stack Developer",
+            Image: require("../assets/img/louis1.jpg"),
+            Name: "Louis Leung",
+            Profession: "Chief Communciations Officer",
             facebookLink: "/#0",
             linkedinLink: "/linkedin",
             twitterLink: "/#0",
@@ -124,14 +124,7 @@ Team.defaultProps = {
             linkedinLink: "/linkedin3",
             twitterLink: "/#0",
         },
-        {
-            Image: require("../assets/img/JohnDruhan2.jpeg"),
-            Name: "John F. Druhan",
-            Profession: "Full Stack Web Developer",
-            facebookLink: "/#0",
-            linkedinLink: "/linkedin4",
-            twitterLink: "/#0",
-        },
+
 
     ]
 };
