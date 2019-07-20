@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
 import PropTypes from "prop-types";
 import Icofont from 'react-icofont';
-import { Link } from 'react-router-dom';
+// you need to uncomment code below if you want to use social media links
+// import { Link } from 'react-router-dom';
+
 import OwlCarousel from "react-owl-carousel3";
 import ScrollAnimation from 'react-animate-on-scroll';
 
@@ -87,15 +89,15 @@ Team.propTypes = {
 
 //Default Props
 Team.defaultProps = {
-    SectionbgTitle: "Team",
-    sectionTitle: "Meet the Web Whisperers",
+    SectionbgTitle: "Founders",
+    sectionTitle: "Meet Our Leaders",
     sectionDescription:
         "The DREAM TEAM of the web designing industry",
     teamsData: [
         {
             Image: require("../assets/img/connieLee1b.jpeg"),
             Name: "Connie Lee",
-            Profession: "CEO & Founder",
+            Profession: "CEO",
             facebookLink: "/#0",
             linkedinLink: "/linkedin5",
             twitterLink: "/#0",
@@ -103,27 +105,27 @@ Team.defaultProps = {
         {
             Image: require("../assets/img/louis1.jpg"),
             Name: "Louis Leung",
-            Profession: "Chief Communciations Officer",
+            Profession: "CCO",
             facebookLink: "/#0",
             linkedinLink: "/linkedin",
             twitterLink: "/#0",
         },
         {
-            Image: require("../assets/img/StephenPing.JPG"),
-            Name: "Stephen Peng",
-            Profession: "Full Stack Web Developer",
+            Image: require("../assets/img/team3.jpeg"),
+            Name: "Charlotte Mackenroy",
+            Profession: "CFO",
             facebookLink: "/#0",
             linkedinLink: "/linkedin2",
             twitterLink: "/#0",
         },
-        {
-            Image: require("../assets/img/Patrick.png"),
-            Name: "Patrick Ellis",
-            Profession: "Full Stack Web Developer",
-            facebookLink: "/#0",
-            linkedinLink: "/linkedin3",
-            twitterLink: "/#0",
-        },
+        // {
+        //     Image: require("../assets/img/Patrick.png"),
+        //     Name: "Patrick Ellis",
+        //     Profession: "Full Stack Web Developer",
+        //     facebookLink: "/#0",
+        //     linkedinLink: "/linkedin3",
+        //     twitterLink: "/#0",
+        // },
 
 
     ]

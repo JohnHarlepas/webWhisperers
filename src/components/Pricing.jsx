@@ -7,6 +7,7 @@ import ItemOne from "../components/pricingItem/ItemOne";
 import ItemTwo from "../components/pricingItem/ItemTwo";
 import ItemThree from '../components/pricingItem/ItemThree';
 
+
 export class Pricing extends Component {
     render() {
         return (

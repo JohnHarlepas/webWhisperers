@@ -1,7 +1,8 @@
 import React, { Component } from "react";
 import PropTypes from "prop-types";
 import OwlCarousel from "react-owl-carousel3";
-import { Link } from 'react-router-dom';
+// you need to uncomment code below if you want to use social media links
+// import { Link } from 'react-router-dom';
 import ScrollAnimation from 'react-animate-on-scroll';
 
 class Partners extends Component {

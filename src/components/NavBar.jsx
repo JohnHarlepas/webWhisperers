@@ -5,7 +5,7 @@ import { NavLink } from "react-router-dom";
 import { Link } from "react-scroll";
 import { LinkContainer } from "react-router-bootstrap";
 import { Navbar, Container, Nav } from "react-bootstrap";
-import SearchModal from "./SearchModal";
+// import SearchModal from "./SearchModal";
 
 class NavBar extends Component {
     componentDidMount() {
@@ -69,12 +69,12 @@ class NavBar extends Component {
                 <Container>
                     <Navbar.Brand className="navbar-brand logo">
                         <React.Fragment>
-                            <LinkContainer exact to="/">
+                            {/* <LinkContainer exact to="/">
                                 <img 
                                     src={this.props.MainLogo}
                                     alt="Logo" 
                                 />
-                            </LinkContainer>
+                            </LinkContainer> */}
                         </React.Fragment>
                     </Navbar.Brand>
 
@@ -311,9 +311,9 @@ class NavBar extends Component {
                         </Nav>
                     </Navbar.Collapse>
                     
-                    <div className="header-search">
+                    {/* <div className="header-search">
                         <SearchModal />
-                    </div>
+                    </div> */}
                 </Container>
             </Navbar>
         </React.Fragment>
@@ -330,20 +330,20 @@ NavBar.propTypes = {
     twitterLink: PropTypes.string,
     instagramLink: PropTypes.string,
     linkedinLink: PropTypes.string,
-    MainLogo: PropTypes.string,
+    // MainLogo: PropTypes.string,
     Logo2: PropTypes.string,
 };
 
 //Default Props
 NavBar.defaultProps = {
-    MainLogo: require('../assets/img/logo3.jpg'),
-    Logo2: require('../assets/img/logo2c.png'),
+    // MainLogo: require('../assets/img/logo3.jpg'),
+    Logo2: require('../assets/img/logo222.png'),
     mailLink: "mailto:contact@webwhisperers.com",
     mail: "contact@webwhisperers.com ",
-    numberLink: "callto:+4917640206387",
-    Number: "+4917640206387",
-    facebookLink: "//facebook.com/",
-    twitterLink: "//twitter.com/",
-    instagramLink: "//instagram.com//",
+    numberLink: "callto:+1 504-434-5681",
+    Number: "+1 504-434-5681",
+    facebookLink: "//facebook.com/Web-Whisperers-380083106037783/?modal=admin_todo_tour/",
+    twitterLink: "//twitter.com/web_whisperers",
+    instagramLink: "//instagram.com/webwhisperers",
 };
 export default NavBar;

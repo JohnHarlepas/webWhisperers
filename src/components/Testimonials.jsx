@@ -69,6 +69,12 @@ Testimonials.defaultProps = {
             Name: "Stephen Peng",
             Profession: "Full Stack Web Developer",
         },
+        {
+            clientImage: require("../assets/img//Patrick.png"),
+            Content: "I have spent a lot of time talking to customers face-to-face. I am constantly amazed how many companies ignore Web Whisperers' foundational princple: listen to your customers.",
+            Name: "Patrick Ellis",
+            Profession: "Full Stack Web Developer",
+        },
     ]
 };
 

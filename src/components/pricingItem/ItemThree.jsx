@@ -75,7 +75,7 @@ ItemThree.defaultProps = {
             content6: "Provide Web Analytics (not included)",
             content7: "Create Backups and Test Their Reliability",
             BtnName: "Purchase Now",
-            btnlink: "/ebay3",
+            btnlink: "/contact",
         },
         {
             planName: "6 Months",
@@ -93,7 +93,7 @@ ItemThree.defaultProps = {
             content7: "Create Backups and Test Their Reliability",
             // content7: "Enhanced Security",
             BtnName: "Purchase Now",
-            btnlink: "/ebay",
+            btnlink: "/contact",
         },
         {
             planName: "12 Months",
@@ -110,7 +110,7 @@ ItemThree.defaultProps = {
             content6: "Provide Web Analytics",
             content7: "Create Backups and Test Their Reliability",
             BtnName: "Purchase Now",
-            btnlink: "/ebay",
+            btnlink: "/contact",
         },
         
     ]

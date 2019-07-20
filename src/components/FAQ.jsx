@@ -98,30 +98,22 @@ FAQ.defaultProps = {
     ContentLink: "/contact",
 
         faqData: [
-        {
-            title: "How to use our service?",
-            description: "When arriving at an O-pass station, press the circle button on the machine to slip out a parking pass for you to take. Before leaving the parking premises, go to our website and navigate to the pay for parking section. Pay for parking and go to the front desk to exchange your old pass for a new one to put in the O-pass machine upon leaving",
-        },
-        {
-            title: "What to do incase your pass is lost?",
-            description: "Call 1-(800)-GET-PASS to speak with a representative. The representative will help you with processing a new parking transaction with O-Pass.",
-        },
-        {
-            title: "How to reach O-Pass Support?",
-            description: "Call the toll free number: 1-(800)-GET-PASS. Our service is 24/7",
-        },
-        {
-            title: "Will O-Pass expand to parking garages outside of Arlington, Virginia? ",
-            description: "Our vision is to expand nation-wide, but grand visions of expansion begin with small steps outside where the company first set root. Therefore we plan to expand to parts of Northern Virginia neighboring Arlington such as Reston and Southern Maryland in Gathersburg. We are also open to anyone who wishes to bring our services to another location, thus expanding our business to their area.",
-        },
-        {
-            title: "Is there an expansion schedule?",
-            description: "At the time of writing this in mid 2019, we have plans to expand our services to Reston by this year's end. Our plans for expansion to Southern Maryland will take place next year or later.",
-        },
-        {
-            title: "What kind of payment options are available?",
-            description: "Payment for the O-pass typically takes place online at ('place address of website here'). However, if the transaction cannot take place online for any reason, feel free to call our toll free number at 1-(800)-GET-PASS to complete the payment.",
-        }
+            {
+                title: "How to reach us?",
+                description: "Feel free to call  (504) 434-5681 or email us at contact@webwhisperers.com. More information on reaching us can be found when you navigate to our “Contact” section via the navigation bar located at the top of the website or by scrolling to the very bottom of the website.",
+            },
+            {
+                title: "What is the typical time frame for a website to be completed?",
+                description: "There are several factors in determining the time it takes for a website to be fully functional and deployable ready. At Web Whisperers, we organize the amount of work we have to do by the number of sections we have to create for our client’s website. If the appraisal of the draft of the website is that each section takes approximately one day to complete, then we give a rough estimation of “# of sections x 1 day” for the amount of time it takes to complete a website. Of course, depending on the complexity, we will appraise for you the number of days it will take to complete specific sections. Additionally, expect a day or so to be attached onto that time frame for website aesthetics.",
+            },
+            {
+                title: "Why choose Web Whisperers?",
+                description: "Our attractiveness to individuals or corporations seeking to upgrade or begin a new website begin with the fact that our company is composed of talented and proven individuals who have the expertise in finishing and crafting projects to perfection on time. Additionally, with Web Whisperers, people who look to us for website design and development reap the benefits of substantial cost savings mostly absent in many counties and cities in the DC metropolitan area. With us, you will have secure peace of mind that your website is in the hands of qualified programmers looking to maximize your website’s aesthetics, functions, and features.",
+            },
+            {
+                title: "I'm ready to get started, what is the next step?",
+                description: "Please follow the instructions in the “Works” section of this website by navigating to it via the navigation bar located at the top of the website. You can also call (504) 434-5681  for additional consultation.",
+            }
         
     ]
 };

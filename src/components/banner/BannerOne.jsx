@@ -5,6 +5,7 @@ import PropTypes from "prop-types";
 import { Link } from 'react-router-dom';
 import VisibilitySensor from "react-visibility-sensor";
 
+
 class BannerOne extends Component {
     render() {
         //BannerOne loop start
@@ -15,51 +16,53 @@ class BannerOne extends Component {
                         <div className="display-table-cell">
                             <VisibilitySensor>
                                 {({ isVisible }) => (
-                                <div className="container">
-                                    <div className="row">
-                                        <div className="col-lg-7">
-                                            <span
-                                                className={
-                                                    isVisible
-                                                        ? "hero-text animated fadeInDown slow opacityOne"
-                                                        : "opacityZero"
-                                                }
-                                            >
-                                                {bannerone.TopTitle}
-                                            </span>
+                                    <div className="container">
+                                        <div className="row">
+                                            <div className="col-lg-7">
+                                                <span
+                                                    className={
+                                                        isVisible
+                                                            ? "hero-text animated fadeInDown slow opacityOne"
+                                                            : "opacityZero"
+                                                    }
+                                                >
+                                                    {bannerone.TopTitle}
+                                                </span>
 
-                                            <h1
-                                                className={
-                                                    isVisible
-                                                        ? "animated fadeInDown slow opacityOne"
-                                                        : "opacityZero"
-                                                }
-                                            >
-                                                {bannerone.Title}
-                                            </h1>
-                                            <p
-                                                className={
-                                                    isVisible
-                                                        ? "animated fadeInDown slow opacityOne"
-                                                        : "opacityZero"
-                                                }
-                                            >
-                                                {bannerone.Content}
-                                            </p>
-                                            <div className="center-wrap">
-                                                <Link to={bannerone.BtnLink} className="btn-a">
-                                                    <div className="button">
-                                                        {bannerone.BtnName}
-                                                        <Icofont icon="icofont-long-arrow-right" />
-                                                    <div className="mask" /></div>
-                                                </Link>
+                                                <h1
+                                                    className={
+                                                        isVisible
+                                                            ? "animated fadeInDown slow opacityOne"
+                                                            : "opacityZero"
+                                                    }
+                                                >
+                                                    {bannerone.Title}
+                                                </h1>
+                                                <p
+                                                    className={
+                                                        isVisible
+                                                            ? "animated fadeInDown slow opacityOne"
+                                                            : "opacityZero"
+                                                    }
+                                                >
+                                                    {bannerone.Content}
+                                                </p>
+                                                <div className="center-wrap">
+                                                    <Link to={bannerone.BtnLink} className="btn-a">
+                                                        <div className="button">
+                                                            {bannerone.BtnName}
+                                                            <Icofont icon="icofont-long-arrow-right" />
+                                                            <div className="mask" /></div>
+                                                    </Link>
 
-                                                
+
+
+
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
-                            )}
+                                )}
                             </VisibilitySensor>
                         </div>
                     </div>
@@ -67,7 +70,7 @@ class BannerOne extends Component {
             )
         );
         //BannerOne loop END
-        
+
         //Thumbs loop Start
         const thumbdata = this.props.thumbsData.map((thumb, index) => (
             <div className="owl-thumb-item" key={index}>
@@ -75,7 +78,7 @@ class BannerOne extends Component {
                 <h3>{thumb.ThumbTitle}</h3>
                 <p>{thumb.ThumbContent}</p>
             </div>
-            )
+        )
         );
         //Thumbs loop END
         return (
@@ -118,7 +121,7 @@ BannerOne.defaultProps = {
             Title: "Fully Customized Websites",
             Content:
                 "Build the website that speaks to your customers in a short period of time",
-            BtnLink:  "/works",
+            BtnLink: "/works",
             BtnName: "get started"
         },
         {
@@ -127,7 +130,7 @@ BannerOne.defaultProps = {
             Title: "Dynamic User Interaction",
             Content:
                 "Build websites that make an impact on your customers",
-            BtnLink:  "/works",
+            BtnLink: "/works",
             BtnName: "get started"
         },
         {
@@ -136,7 +139,7 @@ BannerOne.defaultProps = {
             Title: "Unfettered Customer Satisfaction",
             Content:
                 "Accepting the responsibilitiy of being there when our clients' need us",
-            BtnLink:  "/works",
+            BtnLink: "/works",
             BtnName: "get started"
         }
     ],

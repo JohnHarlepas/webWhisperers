@@ -56,7 +56,7 @@ Services.defaultProps = {
     SectionbgTitle: "Service",
     sectionTitle: "Why use this service?",
     sectionDescription:
-        "In our experience, clients come to us wanting to build a presence online to get more customers. Unfortunatley, the average cost of getting a website done by a professiona is $2000 to $5000. This is a major hurdle for many small businesses. At Web Whisperers, our goal is to get our clients online for much less while providing them with beautiful and well functioning websites.",
+        "In our experience, clients come to us wanting to build a presence online to get more customers. Unfortunatley, the average cost of getting a website done by a professional is $2000 to $5000. This is a major hurdle for many small businesses. At Web Whisperers, our goal is to get our clients online for much less while providing them with beautiful and well functioning websites.",
 
     servicesData: [
         {

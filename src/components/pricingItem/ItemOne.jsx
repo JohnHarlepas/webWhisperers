@@ -3,11 +3,12 @@ import PropTypes from "prop-types";
 import Icofont from 'react-icofont';
 import { Link } from 'react-router-dom';
 
+
 export class ItemOne extends Component {
     render() {
         //Start ItemOne Loop
         const itemonedata = this.props.itemonesData.map((itemone, index) => (
-            
+
             <div className={itemone.className} key={index}>
                 <div className={itemone.FeaturedClass}>
                     <span className="featured">{itemone.Featured}</span>
@@ -34,22 +35,24 @@ export class ItemOne extends Component {
                             <div className="button">
                                 {itemone.BtnName}
                                 <Icofont icon="icofont-long-arrow-right" />
-                            <div className="mask" /></div>
+                                <div className="mask" /></div>
                         </Link>
                     </div>
+
                 </div>
             </div>
-            
+
         ));
         //End ItemOne Loop
         return (
-        <React.Fragment>
-            <div role="tabpanel" className="tab-pane fade show active" id="Atlantic">
-                <div className="pricing-container margin-top-60">
-                    {itemonedata}           
+            <React.Fragment>
+                <div role="tabpanel" className="tab-pane fade show active" id="Atlantic">
+                    <div className="pricing-container margin-top-60">
+                        {itemonedata}
+                    </div>
                 </div>
-            </div>
-        </React.Fragment>
+
+            </React.Fragment>
         );
     }
 }
@@ -72,7 +75,7 @@ ItemOne.defaultProps = {
             content5: "Applying Git Compatibility",
             content6: "No Pages",
             BtnName: "Purchase Now",
-            btnlink: "/ebay3",
+            btnlink: "/contact",
         },
         {
             planName: "Professional",
@@ -89,7 +92,7 @@ ItemOne.defaultProps = {
             content6: "Limited to only 5 Pages Per Project",
             // content7: "Enhanced Security",
             BtnName: "Purchase Now",
-            btnlink: "/ebay",
+            btnlink: "/contact",
         },
         {
             planName: "E-Commerce",
@@ -105,9 +108,9 @@ ItemOne.defaultProps = {
             content5: "Unlimited Pages",
             // content7: "Enhanced Security",
             BtnName: "Purchase Now",
-            btnlink: "/ebay",
+            btnlink: "/contact",
         },
-        
+
     ]
 };
 export default ItemOne;
