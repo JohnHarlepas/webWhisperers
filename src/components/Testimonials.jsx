@@ -63,12 +63,12 @@ Testimonials.defaultProps = {
             Name: "John D. Harlepas",
             Profession: "Tech Lead",
         },
-        {
-            clientImage: require("../assets/img/stephenSmall.png"),
-            Content: "The glow of one happy, satisfied customer is to me worth more than money.",
-            Name: "Stephen Peng",
-            Profession: "Full Stack Web Developer",
-        },
+        // {
+        //     clientImage: require("../assets/img/stephenSmall.png"),
+        //     Content: "The glow of one happy, satisfied customer is to me worth more than money.",
+        //     Name: "Stephen Peng",
+        //     Profession: "Full Stack Web Developer",
+        // },
         {
             clientImage: require("../assets/img//Patrick.png"),
             Content: "I have spent a lot of time talking to customers face-to-face. I am constantly amazed how many companies ignore Web Whisperers' foundational princple: listen to your customers.",
