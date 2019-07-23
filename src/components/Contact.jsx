@@ -55,7 +55,7 @@ class Contact extends Component {
                         <div className="row">
                             <div className="col-lg-4 col-md-4">
                                 <div className="address-area">
-                                    <div className="addess">
+                                    <div className="address">
                                         <Icofont icon="icofont-google-map icofont-red"/>
                                         <h4>{this.props.AddTitle}</h4>
                                         <p>{this.props.Address}</p>

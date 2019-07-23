@@ -89,7 +89,7 @@ FAQ.propTypes = {
 //Default Props
 FAQ.defaultProps = {
     SectionbgTitle: "FAQ",
-    sectionTitle: "Frequntly Asked Questions",
+    sectionTitle: "Frequently Asked Questions",
     sectionDescription:
         "If you have more questions, send us a message and we will answer you as soon as possible.",
     

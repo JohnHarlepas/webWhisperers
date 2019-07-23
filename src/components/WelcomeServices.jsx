@@ -9,7 +9,7 @@ class WelcomeServices extends Component {
         return (
             <React.Fragment>
                 <section className="cta-area cta-bg-img">
-                    <div className="diplay-table">
+                    <div className="display-table">
                         <div className="display-table-cell">
                             <div className="container">
                                 <ScrollAnimation animateIn="fadeInUp">
