@@ -64,7 +64,7 @@ About.defaultProps = {
         {
             Icon: "icofont-tools-bag",
             title: "Resourceful",
-            content: " By using multiple technolies, we can build websites that bring our clients more sales and notoriety.",
+            content: " By using multiple technologies, we can build websites that bring our clients more sales and notoriety.",
         },
         {
             Icon: "icofont-chart-histogram-alt",

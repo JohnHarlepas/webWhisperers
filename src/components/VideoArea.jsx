@@ -19,7 +19,7 @@ class VideoArea extends Component {
     return (
         <React.Fragment>
             <section className="video-area video-bg">
-                <div className="diplay-table">
+                <div className="display-table">
                     <div className="display-table-cell">
                         <div className="video-inner-content">
                             <div className="button__holder">
