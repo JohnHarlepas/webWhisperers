@@ -336,7 +336,7 @@ NavBar.propTypes = {
 
 //Default Props
 NavBar.defaultProps = {
-    MainLogo: require('../assets/img/logoWeb4.png'),
+    MainLogo: require('../assets/img/logoWeb5.png'),
     Logo2: require('../assets/img/logo222.png'),
     mailLink: "mailto:contact@webwhisperers.com",
     mail: "contact@webwhisperers.com ",
