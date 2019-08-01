@@ -4,7 +4,7 @@ import Icofont from 'react-icofont';
 import { Link } from 'react-router-dom';
 import ScrollAnimation from 'react-animate-on-scroll';
 
-class Blog extends Component {
+class Projects extends Component {
     componentDidMount() {
         let scrollWithOffset = (el, offset) => {
             const elementPosition = el.offsetTop - offset;
@@ -46,7 +46,7 @@ class Blog extends Component {
     //Blog loop END
     return (
         <React.Fragment>
-            <section id="blog" className="our-blog ptb-100">
+            <section id="blog" className="our-blog1 ptb-100">
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-8 offset-lg-2 text-center">
@@ -80,7 +80,7 @@ class Blog extends Component {
   }
 }
 //Props Types
-Blog.propTypes = {
+Projects.propTypes = {
     SectionbgTitle: PropTypes.string,
     sectionTitle: PropTypes.string,
     sectionDescription: PropTypes.string,
@@ -90,76 +90,76 @@ Blog.propTypes = {
 };
 
 //Default Props
-Blog.defaultProps = {
-    SectionbgTitle: "Blog",
-    sectionTitle: "Our Blog",
+Projects.defaultProps = {
+    SectionbgTitle: "Projects",
+    sectionTitle: "Our Work",
     sectionDescription:
-        "Web Whisperers believe that our clients should be well-informed prior to any decision they make. Read these informative articles to get an understanding of what challenges small businesses face in buying a website.",
+        "Web Whisperers believe that our clients should be well-informed prior to any decision they make. This includes getting an idea of what our talented developers are capable of producing. Please, take the time and look over past projects to get a better understanding of what Web Whisperers can do.",
     btnLink: "/blog-one",
     BlogBtn: "View All Post",
         blogsData: [
         {
-            postImage: require("../assets/img/blog1.jpeg"),
-            postLink: "/demand",
+            postImage: require("../assets/img/aceMobile1.jpeg"),
+            postLink: "/aceMobile",
             date: "25",
-            month: "Feb",
-            posttitle: "How much does it cost to maintain a website?",
-            postContent: "Your website is like your car. If you never check fluids or get a tune-up, it won’t work when you need it. Maintaining your website requires some effort and includes a price tag.",
-            authorName: " Osborne",
-            authorLink: "//demand",
-            TotalComments: "06",
-            CommentsLink: "/demand",
-            TagName: "Costs",
-            TagLink: "/demand", 
+            month: "Mar",
+            posttitle: "Ace Mobile Auto Detailing",
+            postContent: "The client had a website that was built over five years ago. The client came to JDH with the desire to create a website that would look modern and employ state-of-the-art functionality. In response, JDH designed and coded a website that incorporated a variety of updated features including: APIs, functional chatbox, and a database.",
+            authorName: " Web Whisperers",
+            authorLink: "//aceMobile",
+            TotalComments: "15",
+            CommentsLink: "/aceMobile",
+            TagName: "Projects",
+            TagLink: "/aceMobile", 
         },
         {
-            postImage: require("../assets/img/blog2.jpeg"),
-            postLink: "/future",
-            date: "1",
-            month: "May",
-            posttitle: "Average Website Maintenance Costs in 2019",
-            postContent: "Website maintenance costs are often unplanned for, and can add up quickly. If you ignore website maintenance to cut costs, you'll often end up paying website repair costs instead, which can be even pricier. ",
-            authorName: "O'Connor",
-            authorLink: "/future",
-            TotalComments: "06",
-            CommentsLink: "/future",
-            TagName: "Costs",
-            TagLink: "/future", 
+            postImage: require("../assets/img/opass1Pic.jpeg"),
+            postLink: "/oPass1",
+            date: "10",
+            month: "Apr",
+            posttitle: "O-Pass",
+            postContent: "The client owned a series of parking garages in the DC metro area. The client noticed that customers would create bottlenecks at pay terminals and pay gates (exiting). The client wanted to create a method of collecting parking fees without using the pay gates or terminals. ",
+            authorName: "Web Whisperers",
+            authorLink: "/oPass1",
+            TotalComments: "30",
+            CommentsLink: "/oPass1",
+            TagName: "Projects",
+            TagLink: "/oPass1", 
         },
        
 
         {
-            postImage: require("../assets/img/blog4.jpeg"),
-            postLink: "/ticket",
-            date: "15",
+            postImage: require("../assets/img/jdhDesignPic1.jpeg"),
+            postLink: "/jdhDesign",
+            date: "5",
             month: "May",
-            posttitle: "How Much Does a Website Cost?",
-            postContent: "How much does a website cost? Is there such a thing as a website cost blueprint?These are probably some of the first questions for anyone who considers establishing their own web presence.",
-            authorName: "Schaferhoff",
-            authorLink: "/ticket",
-            TotalComments: "06",
-            CommentsLink: "/ticket",
-            TagName: "lifestyle",
-            TagLink: "/ticket", 
+            posttitle: "JDH Design",
+            postContent: "The client wanted to showcase his programming skills and projects. He came to use to design a webpage that would make an impression on future clients and employers. In response, Web Whisperers designed and coded a multi-page website that allowed customers to view many of his projects and provide background information on the client.",
+            authorName: "Web Whisperers",
+            authorLink: "/jdhDesign",
+            TotalComments: "20",
+            CommentsLink: "/jdhDesign",
+            TagName: "Projects",
+            TagLink: "/jdhDesign", 
         },
 
 
 
         {
-            postImage: require("../assets/img/blog3.jpeg"),
-            postLink: "/automated",
+            postImage: require("../assets/img/bookKids1.jpeg"),
+            postLink: "/classBooks",
             date: "1",
             month: "June",
-            posttitle: "How Much Does It Cost To Build A Website For A Small Business?",
-            postContent: "It all boils down to how much work is involved. Specifically, the 2 factors that determine how much work is involved are the size and complexity of your site.",
+            posttitle: "Summer Reading List",
+            postContent: "The client teaches 8th grade English at a local middle school. The client came to Web Whisperers with the desire to create an application that would allow her students to chose which books the class would read for summer break. Web Whisperers designed and coded a React-based Google Books Search app.",
             authorName: "Brinker",
-            authorLink: "/automated",
-            TotalComments: "06",
-            CommentsLink: "/automated",
-            TagName: "lifestyle",
-            TagLink: "/automated", 
+            authorLink: "/classBooks",
+            TotalComments: "11",
+            CommentsLink: "/classBooks",
+            TagName: "Projects",
+            TagLink: "/classBooks", 
         },
     ]
 };
 
-export default Blog;
+export default Projects;

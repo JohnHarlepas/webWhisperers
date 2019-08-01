@@ -21,7 +21,7 @@ class WelcomeServices extends Component {
                                                 
                                                 <div className="center-wrap">
                                                     <Link to={this.props.BtnLink} className="btn-a">
-                                                        <div className="button">
+                                                        <div className="button" >
                                                             {this.props.BtnName}
                                                             <Icofont icon="icofont-long-arrow-right" />
                                                         <div className="mask" /></div>
@@ -57,8 +57,8 @@ WelcomeServices.propTypes = {
 WelcomeServices.defaultProps = {
     Title: "We offer best in class service for your needs",
     Content: "We strive to build websites for clients designed to cater to the needs of their customers.",
-    BtnLink: "/ebay",
-    BtnName: "PURCHASE NOW",
+    BtnLink: "/proj",
+    BtnName: "LEARN MORE",
     // Image: require("../assets/img/jumpingGuy.png"),
 };
 export default WelcomeServices;

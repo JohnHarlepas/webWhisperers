@@ -1052,6 +1052,10 @@ Services Area CSS
 .our-blog {
     background-color: #f5f8f9;
 }
+.our-blog1 {
+    background-color: transparent;
+    /* //this turns the gray background of a section into a white background */
+}
 .blog-item {
     margin-top: 30px;
     transition: .4s;

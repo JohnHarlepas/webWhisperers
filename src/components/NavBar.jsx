@@ -69,12 +69,12 @@ class NavBar extends Component {
                 <Container>
                     <Navbar.Brand className="navbar-brand logo">
                         <React.Fragment>
-                            {/* <LinkContainer exact to="/">
+                            <LinkContainer exact to="/">
                                 <img 
                                     src={this.props.MainLogo}
                                     alt="Logo" 
                                 />
-                            </LinkContainer> */}
+                            </LinkContainer>
                         </React.Fragment>
                     </Navbar.Brand>
 
@@ -330,13 +330,13 @@ NavBar.propTypes = {
     twitterLink: PropTypes.string,
     instagramLink: PropTypes.string,
     linkedinLink: PropTypes.string,
-    // MainLogo: PropTypes.string,
+    MainLogo: PropTypes.string,
     Logo2: PropTypes.string,
 };
 
 //Default Props
 NavBar.defaultProps = {
-    // MainLogo: require('../assets/img/logo3.jpg'),
+    MainLogo: require('../assets/img/logoWeb4.png'),
     Logo2: require('../assets/img/logo222.png'),
     mailLink: "mailto:contact@webwhisperers.com",
     mail: "contact@webwhisperers.com ",

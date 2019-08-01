@@ -25,6 +25,8 @@ import SingleBlog from "./pages/SingleBlog";
 import ScrollUpBtn from "./components/ScrollUp";
 import Works from "./components/Works";
 import Contact from "./components/Contact";
+import Projects from './components/Projects';
+
 
 
 class App extends Component {
@@ -85,10 +87,21 @@ class App extends Component {
                                                 component={() => window.location = 'http://www.bebetterdomore.com/blog/how-much-does-it-cost-to-maintain-a-website/'}
 
                                             />
+                                            <Route
+                                                path="/aceMobile"
+                                                component={() => window.location = 'https://johnharlepas.github.io/project1_APIusage/'}
+
+                                            />
 
                                             <Route
                                                 path="/future"
                                                 component={() => window.location = 'https://www.volusion.com/blog/website-maintenance-costs/'}
+
+                                            />
+
+                                            <Route
+                                                path="/oPass1"
+                                                component={() => window.location = 'https://www.opass.com'}
 
                                             />
 
@@ -99,8 +112,20 @@ class App extends Component {
                                             />
 
                                             <Route
+                                                path="/classBooks"
+                                                component={() => window.location = 'https://googlebooksearch-react-may8.herokuapp.com/'}
+
+                                            />
+
+                                            <Route
                                                 path="/ticket"
                                                 component={() => window.location = 'https://websitesetup.org/website-cost/'}
+
+                                            />
+
+                                            <Route
+                                                path="/jdhDesign"
+                                                component={() => window.location = 'https://www.johnharlepas.com'}
 
                                             />
 
@@ -139,7 +164,7 @@ class App extends Component {
                                                 component={SingleBlog}
                                             />
 
-                                            <Route
+                                            {/* <Route
                                                 path="/ebay3"
                                                 component={() => window.location = 'https://www.ebay.com/itm/223527991950'}
 
@@ -149,11 +174,11 @@ class App extends Component {
                                                 path="/ebay2"
                                                 component={() => window.location = 'https://www.ebay.com/itm/223527992056'}
 
-                                            />
+                                            /> */}
 
                                             <Route
-                                                path="/ebay"
-                                                component={() => window.location = 'https://www.ebay.com/itm/223527989588'}
+                                                path="/proj"
+                                                component={Projects}
 
                                             />
 
@@ -166,9 +191,9 @@ class App extends Component {
                                                 path="/contact"
                                                 component={Contact}
                                             />
-                                            
 
-                                          
+
+
 
 
 

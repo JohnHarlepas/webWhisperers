@@ -9,6 +9,7 @@ import Works from "../components/Works";
 import About from "../components/About";
 import Team from "../components/Team";
 import Blog from "../components/Blog";
+import Projects from "../components/Projects";
 import VideoArea from "../components/VideoArea";
 import Pricing from "../components/Pricing";
 import FunFacts from "../components/FunFacts";
@@ -38,6 +39,8 @@ class HomeOne extends Component {
             <Team />
             {/* Blog: src/components/Blog.jsx */}
             <Blog />
+            {/* VideoArea: src/components/VideoArea.jsx */}
+            <Projects />
             {/* VideoArea: src/components/VideoArea.jsx */}
             <VideoArea />
             {/* Pricing: src/components/Pricing.jsx */}
