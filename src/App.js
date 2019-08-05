@@ -34,9 +34,7 @@ import Projects from './components/Projects';
 
 
 class App extends Component {
-    componentDidMount(){
-        window.ga('create', 'UA-145077240-1', 'auto');
-        }
+
     render() {
         return (            
             <div className="App">
