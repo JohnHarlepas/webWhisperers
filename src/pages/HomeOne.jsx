@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import ReactGA from 'react-ga';
 
 //Import Component
 import NavBar from "../components/NavBar";
@@ -18,6 +19,13 @@ import FAQ from "../components/FAQ";
 import Partner from "../components/Partner";
 import Contact from "../components/Contact";
 import Footer from "../components/Footer";
+
+
+
+
+const trackingId = "UA-145077240-1"; // Replace with your Google Analytics tracking ID
+ReactGA.initialize(trackingId);
+
 
 class HomeOne extends Component {
   render() {

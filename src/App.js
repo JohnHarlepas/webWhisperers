@@ -41,21 +41,8 @@ class App extends Component {
     render() {
         return (            
             <div className="App">
-                {/* <StripeProvider apiKey="pk_test_SehM06GvzFDCDv3VjHgF8T4C00hc1q3NLX">
-                    <div className="example">
-                        <h1>React Stripe Elements Example</h1>
-                        <Elements>
-                            <CheckoutForm />
-                        </Elements>
-                    </div>
-                </StripeProvider> */}
-
-
                 <Page loader={"comet-spin"} color={"#fe5619"} size={50}>
                     <div>
-
-
-        
                         <Route
                             render={({ location }) => (
                                 <CSSTransition
