@@ -2,11 +2,13 @@ import React, { Component } from 'react';
 import { Route, Switch, Redirect } from 'react-router-dom';
 import Page from "react-page-loading";
 import { CSSTransition } from "react-transition-group";
+import ReactGA from 'react-ga';
 
 //Package CSS
 import "bootstrap/dist/css/bootstrap.css";
 import "bootstrap/dist/js/bootstrap.min.js";
 import "animate.css/animate.min.css";
+
 
 //Template CSS Style
 import "../src/style.css";
@@ -27,7 +29,10 @@ import Works from "./components/Works";
 import Contact from "./components/Contact";
 import Projects from './components/Projects';
 
-
+function initializeReactGA() {
+    ReactGA.initialize('UA-145077240-1');
+ReactGA.pageview('/');
+}
 
 class App extends Component {
     render() {
@@ -41,8 +46,13 @@ class App extends Component {
                         </Elements>
                     </div>
                 </StripeProvider> */}
+
+
                 <Page loader={"comet-spin"} color={"#fe5619"} size={50}>
                     <div>
+
+
+        
                         <Route
                             render={({ location }) => (
                                 <CSSTransition
