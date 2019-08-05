@@ -6,6 +6,12 @@ import { Link } from 'react-router-dom';
 import ScrollAnimation from 'react-animate-on-scroll';
 
 
+
+
+
+
+
+
 class FAQ extends Component {
     render() {
         return (

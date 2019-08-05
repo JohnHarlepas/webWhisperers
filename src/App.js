@@ -2,7 +2,8 @@ import React, { Component } from 'react';
 import { Route, Switch, Redirect } from 'react-router-dom';
 import Page from "react-page-loading";
 import { CSSTransition } from "react-transition-group";
-import ReactGA from 'react-ga';
+
+
 
 //Package CSS
 import "bootstrap/dist/css/bootstrap.css";
@@ -32,13 +33,10 @@ import Projects from './components/Projects';
 
 
 
-
-
-
-ReactGA.initialize('UA-145077240-1');
-ReactGA.pageview(window.location.pathname + window.location.search);
-
 class App extends Component {
+    componentDidMount(){
+        window.ga('create', 'UA-145077240-1', 'auto');
+        }
     render() {
         return (            
             <div className="App">
