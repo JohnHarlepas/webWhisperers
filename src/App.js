@@ -29,14 +29,17 @@ import Works from "./components/Works";
 import Contact from "./components/Contact";
 import Projects from './components/Projects';
 
-function initializeReactGA() {
-    ReactGA.initialize('UA-145077240-1');
-ReactGA.pageview('/');
-}
+
+
+
+
+
+const trackingId = "UA-145077240-1"; // Replace with your Google Analytics tracking ID
+ReactGA.initialize(trackingId);
 
 class App extends Component {
     render() {
-        return (
+        return (            
             <div className="App">
                 {/* <StripeProvider apiKey="pk_test_SehM06GvzFDCDv3VjHgF8T4C00hc1q3NLX">
                     <div className="example">
