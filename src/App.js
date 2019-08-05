@@ -34,8 +34,9 @@ import Projects from './components/Projects';
 
 
 
-const trackingId = "UA-145077240-1"; // Replace with your Google Analytics tracking ID
-ReactGA.initialize(trackingId);
+
+ReactGA.initialize('UA-145077240-1');
+ReactGA.pageview(window.location.pathname + window.location.search);
 
 class App extends Component {
     render() {
