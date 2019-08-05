@@ -2,6 +2,9 @@ import React, { Component } from 'react';
 import { Route, Switch, Redirect } from 'react-router-dom';
 import Page from "react-page-loading";
 import { CSSTransition } from "react-transition-group";
+import ReactGA from 'react-ga';
+import createHistory from 'history/createBrowserHistory'
+
 
 
 
@@ -29,6 +32,15 @@ import ScrollUpBtn from "./components/ScrollUp";
 import Works from "./components/Works";
 import Contact from "./components/Contact";
 import Projects from './components/Projects';
+
+
+
+const history = createHistory()
+ReactGA.initialize('UA-145077240-1');
+history.listen((location, action) => {
+    ReactGA.pageview(location.pathname + location.search);
+    console.log(location.pathname)
+});
 
 
 

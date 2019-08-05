@@ -25,9 +25,7 @@ import Footer from "../components/Footer";
 
 
 class HomeOne extends Component {
-  componentDidMount(){
-    window.ga('create', 'UA-145077240-1', 'auto');
-    }
+
   render() {
     return (
         <React.Fragment>
